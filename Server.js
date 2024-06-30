@@ -10,7 +10,6 @@ app.get('/set-cookie', (req, res) => {
   res.send('Cookie is set');
 });
 
-// Reading cookies
 app.get('/get-cookie', (req, res) => {
   const cookies = req.cookies;
   res.send(cookies);
